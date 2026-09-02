@@ -1,0 +1,23 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #EED9C4; /* Nude */
+  text-align: center;
+}
+
+button {
+  background-color: #F8BBD0; /* Rosa */
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f48fb1; /* Rosa mais escuro no hover */
+}
+
+h1, h2, h3 {
+  color: #333; /* Texto em contraste */
+}
