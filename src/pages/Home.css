@@ -1,0 +1,34 @@
+.tela-inicial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff0f6;
+  font-family: Arial, sans-serif;
+}
+
+.tela-inicial h1 {
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.tela-inicial p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.menu-opcoes button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #d63384;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.menu-opcoes button:hover {
+  background-color: #a61e65;
+}

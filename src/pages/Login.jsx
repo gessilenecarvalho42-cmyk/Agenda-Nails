@@ -1,16 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import "../style.css";
 
-export default function CadastroCliente() {
+export default function Login() {
   const navigate = useNavigate();
 
   return (
-    <div className="cadastro">
+    <div className="login">
       <div className="card">
-        <h1 className="titulo">Criar Conta</h1>
-
-        <label className="label">Nome</label>
-        <input type="text" placeholder="Digite seu nome" className="input" />
+        <h1 className="titulo">Login</h1>
 
         <label className="label">Celular</label>
         <input type="tel" placeholder="Digite seu celular" className="input" />
@@ -18,14 +15,12 @@ export default function CadastroCliente() {
         <label className="label">Senha</label>
         <input type="password" placeholder="Digite sua senha" className="input" />
 
-        <button className="btn-entrar" onClick={() => navigate("/login")}>
-          Cadastrar
+        <button className="btn-entrar" onClick={() => navigate("/home")}>
+          Fazer Login
         </button>
       </div>
     </div>
   );
 }
-
-
 
 

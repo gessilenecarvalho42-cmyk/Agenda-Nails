@@ -1,72 +1,168 @@
+/* ======== ESTILO GERAL ======== */
 body {
-  background-color: #fbeae7; /* nude bem claro */
-  font-family: 'Poppins', 'Montserrat', sans-serif;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8d7da; /* fundo rosa claro padrão */
+}
+
+/* ======== CONTAINERS PADRÃO ======== */
+.boas-vindas,
+.login,
+.cadastro,
+.home {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
 }
 
-.boas-vindas {
-  background-color: #ffffff; /* cartão branco para contraste */
-  padding: 40px;
+/* ======== CARTÃO CENTRAL ======== */
+.card {
+  background-color: #ffffff;
+  padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 340px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   text-align: center;
+  width: 350px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
-.logo {
-  width: 100px;
-  margin-bottom: 15px;
-}
-
+/* ======== TÍTULOS ======== */
 .titulo {
-  font-family: 'Montserrat', sans-serif;
+  color: #c06c84;
   font-weight: 700;
-  color: #b76e79;
-  font-size: 2.3rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
+/* ======== FRASE ======== */
 .frase {
-  font-family: 'Poppins', sans-serif;
-  color: #444;
-  font-size: 1rem;
-  margin-bottom: 25px;
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
+/* ======== IMAGENS ======== */
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* ======== IMAGEM DO ESMALTE ======== */
+.logo {
+  display: block;           /* garante que a imagem ocupe uma linha inteira */
+  margin: 0 auto 20px auto; /* centraliza horizontalmente e adiciona espaçamento abaixo */
+  width: 120px;             /* tamanho ideal para o esmalte */
+  height: auto;             /* mantém proporção original */
+}
+ 
+.banner {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* ======== CAMPOS DE ENTRADA ======== */
+.label {
+  display: block;
+  text-align: left;
+  color: #c06c84;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* ======== BOTÕES ======== */
 .btn-entrar {
-  background-color: #b76e79;
+  background-color: #c06c84;
   color: #fff;
   border: none;
-  padding: 12px 24px;
-  border-radius: 25px;
-  font-size: 1rem;
+  border-radius: 8px;
+  padding: 10px 20px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(183, 110, 121, 0.4);
+  margin: 5px;
+  font-weight: 500;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  font-family: 'Poppins', sans-serif;
 }
 
 .btn-entrar:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(183, 110, 121, 0.5);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.link-criar-conta {
-  margin-top: 15px;
-  font-size: 0.95rem;
-  color: #b76e79;
-  font-weight: 600;
-  text-decoration: underline;
+.btn-outline {
+  background-color: transparent;
+  color: #c06c84;
+  border: 2px solid #c06c84;
+  border-radius: 8px;
+  padding: 10px 20px;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  margin: 5px;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.btn-outline:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
- 
+/* ======== MENU INFERIOR FIXO ======== */
+.menu-inferior {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 2px solid #c06c84;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
+.menu-btn {
+  background: none;
+  border: none;
+  color: #c06c84;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
+.menu-btn:hover {
+  transform: scale(1.1);
+}
 
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .menu-btn {
+    font-size: 14px;
+  }
+}
