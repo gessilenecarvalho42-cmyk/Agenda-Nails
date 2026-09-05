@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import CadastroCliente from "./pages/CadastroCliente";
 import Home from "./pages/Home";
 import Agendamento from "./pages/Agendamento";
+import ConfirmarAgendamento from "./pages/ConfirmarAgendamento";
 import MeusAgendamentos from "./pages/MeusAgendamentos";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/cadastrocliente" element={<CadastroCliente />} />
         <Route path="/home" element={<Home />} />
         <Route path="/agendamento" element={<Agendamento />} />
+        <Route path="/confirmar" element={<ConfirmarAgendamento />} />
         <Route path="/meusagendamentos" element={<MeusAgendamentos />} />
       </Routes>
     </BrowserRouter>
@@ -22,6 +24,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
