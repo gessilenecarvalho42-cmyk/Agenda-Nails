@@ -1,0 +1,25 @@
+[33m2d82bfb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to 2d82bfb
+[33mdd2d442[m HEAD@{1}: commit: Adiciona .gitignore para ignorar node_modules
+[33m2d82bfb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: commit: Remove node_modules do versionamento
+[33m5cc7645[m HEAD@{3}: commit: Implementação da Tela de Confirmação
+[33m5a325c8[m HEAD@{4}: Branch: renamed refs/heads/main to refs/heads/main
+[33m5a325c8[m HEAD@{6}: reset: moving to 5a325c8
+[33md687ae8[m HEAD@{7}: checkout: moving from main to main
+[33md687ae8[m HEAD@{8}: commit (amend): Implementação da Tela de Confirmação
+[33m5ecc82f[m[33m ([m[1;32mconfirmacao-ajuste[m[33m)[m HEAD@{9}: merge confirmacao-ajuste: Fast-forward
+[33mad52090[m HEAD@{10}: checkout: moving from main to main
+[33mad52090[m HEAD@{11}: checkout: moving from main to main
+[33mad52090[m HEAD@{12}: checkout: moving from 5ecc82f013b7e5f5805e3f1065dc233c93e23162 to main
+[33m5ecc82f[m[33m ([m[1;32mconfirmacao-ajuste[m[33m)[m HEAD@{13}: commit: Atualiza tela de confirmação com ícone rosa e layout profissional
+[33mad52090[m HEAD@{14}: checkout: moving from 27946a38e6b5d7e9e8720a3587bf76e8298e057e to ad52090
+[33m27946a3[m HEAD@{15}: checkout: moving from main to 27946a3
+[33mad52090[m HEAD@{16}: commit: Implementação da telaagendamento
+[33m27946a3[m HEAD@{17}: merge 27946a3: Fast-forward
+[33mc1de4fd[m HEAD@{18}: checkout: moving from 27946a38e6b5d7e9e8720a3587bf76e8298e057e to main
+[33m27946a3[m HEAD@{19}: commit: Implementação da Tela Home e novas telas
+[33mc1de4fd[m HEAD@{20}: checkout: moving from main to c1de4fdc74f6a0b74be83243f6cb6d810030913d
+[33mc1de4fd[m HEAD@{21}: commit: Implementação da Tela Boas-Vindas
+[33mcd2170b[m HEAD@{22}: commit (merge): Merge do README com projeto Agenda Nails
+[33mc1d1495[m HEAD@{23}: Branch: renamed refs/heads/main to refs/heads/main
+[33mc1d1495[m HEAD@{25}: Branch: renamed refs/heads/master to refs/heads/main
+[33mc1d1495[m HEAD@{27}: commit (initial): Projeto inicial Agenda Nails
