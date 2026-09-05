@@ -1,0 +1,87 @@
+.container-agendamento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7d7c4;
+  height: 100vh;
+}
+
+.card-agendamento {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;          /* menos espaço interno */
+  width: 90%;
+  max-width: 380px;       /* largura boa */
+  gap: 10px;              /* menos espaço entre elementos */
+}
+
+.titulo {
+  color: #b35c7a;
+  font-size: 22px;
+  margin-bottom: 6px;     /* reduz espaço abaixo do título */
+  text-align: center;
+}
+
+.agendamento-item {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 8px;           /* menos espaço interno nos cards */
+  text-align: left;
+}
+
+.agendamento-item h3 {
+  color: #b35c7a;
+  margin-bottom: 4px;     /* menos espaço abaixo do subtítulo */
+  font-size: 18px;
+}
+
+.acoes {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.btn-reagendar,
+.btn-cancelar {
+  padding: 5px 10px;      /* botões mais compactos */
+  font-size: 0.85rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-reagendar {
+  background-color: #b35c7a;
+  color: #fff;
+}
+
+.btn-reagendar:hover {
+  background-color: #a04e6b;
+}
+
+.btn-cancelar {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-cancelar:hover {
+  background-color: #5a6268;
+}
+
+.btn-voltar {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: #b35c7a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-voltar:hover {
+  background-color: #a04e6b;
+}
