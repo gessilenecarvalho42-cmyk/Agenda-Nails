@@ -1,30 +1,50 @@
-import './Agendamento.css'; // agora o CSS está no mesmo diretório
+import { useNavigate } from "react-router-dom";
+import "./Agendamento.css";
 
 export default function Agendamento() {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = e.target[0].value;
+    const hora = e.target[1].value;
+    const servico = e.target[2].value;
+    navigate(`/confirmar?data=${data}&hora=${hora}&servico=${servico}`);
+  };
+
   return (
-    <div className="container">
-      <h1 className="titulo">Agendar Serviço</h1>
-      <p className="texto">Escolha o dia e horário desejado.</p>
+    <div className="container-agendamento">
+      <div className="card-agendamento">
+        <div className="formulario-agendamento">
+          <h1 className="titulo">Agendar Serviço</h1>
 
-      <form className="form-agendamento">
-        <label htmlFor="data">Data:</label>
-        <input type="date" id="data" name="data" />
+          {/* Imagem maior abaixo do título */}
+          <div className="imagem-agendamento">
+            <img src="/unhas.png" alt="Unhas decoradas" />
+          </div>
 
-        <label htmlFor="hora">Horário:</label>
-        <input type="time" id="hora" name="hora" />
+          <form onSubmit={handleSubmit}>
+            <label>Data:</label>
+            <input type="date" />
 
-        <label htmlFor="servico">Serviço:</label>
-        <select id="servico" name="servico">
-          <option value="">Selecione...</option>
-          <option value="manicure">Manicure</option>
-          <option value="pedicure">Pedicure</option>
-          <option value="alongamento">Alongamento de unhas</option>
-        </select>
+            <label>Horário:</label>
+            <input type="time" />
 
-        <button type="submit" className="botao-agendar">
-          Confirmar Agendamento
-        </button>
-      </form>
+            <label>Serviço:</label>
+            <select>
+              <option value="">Selecione...</option>
+              <option value="manicure">Manicure</option>
+              <option value="pedicure">Pedicure</option>
+              <option value="alongamento">Alongamento de unhas</option>
+            </select>
+
+            <button type="submit">Confirmar</button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }
+
+
+

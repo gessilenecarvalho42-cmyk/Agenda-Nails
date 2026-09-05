@@ -1,0 +1,81 @@
+.container-confirmacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7d7c4;
+  height: 100vh;
+}
+
+.card-confirmacao {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  width: 500px;
+  gap: 20px;
+}
+
+.titulo {
+  color: #b35c7a;
+  font-size: 26px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.mensagem-sucesso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.icone-validacao {
+  color: #b35c7a; /* Rosa ao invés de verde */
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+.info-agendamento {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.linha-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.label {
+  font-weight: 600;
+  color: #b35c7a;
+}
+
+.valor {
+  color: #333;
+  font-weight: 500;
+}
+
+.botao-voltar {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #b35c7a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.botao-voltar:hover {
+  background-color: #a04e6b;
+}
