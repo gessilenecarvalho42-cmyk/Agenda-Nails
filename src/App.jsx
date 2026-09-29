@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Agendamento from "./pages/Agendamento";
 import ConfirmarAgendamento from "./pages/ConfirmarAgendamento";
 import MeusAgendamentos from "./pages/MeusAgendamentos";
+import Perfil from "./pages/Perfil";
+import PainelManicure from "./pages/PainelManicure";
 
 function App() {
   return (
@@ -18,17 +20,16 @@ function App() {
         <Route path="/agendamento" element={<Agendamento />} />
         <Route path="/confirmar" element={<ConfirmarAgendamento />} />
         <Route path="/meusagendamentos" element={<MeusAgendamentos />} />
+        <Route path="/perfil" element={<Perfil />} />
+
+        {/* Área da manicure */}
+        <Route
+          path="/painelmanicure"
+          element={<PainelManicure />}
+        />
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
