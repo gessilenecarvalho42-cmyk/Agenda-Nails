@@ -1,0 +1,51 @@
+.perfil-manicure {
+  min-height: 100vh;
+  background: #f8dce8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.perfil-manicure-card {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-manicure-card h1 {
+  text-align: center;
+  color: #c94f7c;
+  margin-bottom: 25px;
+}
+
+.dados-perfil {
+  margin-bottom: 25px;
+}
+
+.dados-perfil p {
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.perfil-manicure-card button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #d86b96;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.perfil-manicure-card .botao-voltar {
+  background: #999;
+}

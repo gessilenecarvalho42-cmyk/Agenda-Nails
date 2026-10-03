@@ -1,0 +1,84 @@
+.servicos-manicure {
+  min-height: 100vh;
+  background: #f8dce8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.servicos-card {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.servicos-card h1 {
+  text-align: center;
+  color: #c94f7c;
+  margin-bottom: 8px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.form-servico {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-servico label {
+  font-weight: 600;
+  color: #555;
+  margin-top: 8px;
+}
+
+.form-servico input,
+.form-servico textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.form-servico textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.form-servico button {
+  margin-top: 20px;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background: #d86b96;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.lista-servicos {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.lista-servicos h2 {
+  color: #c94f7c;
+  font-size: 20px;
+}
+
+.lista-servicos p {
+  color: #777;
+}
