@@ -38,7 +38,10 @@ export default function AdicionarServico() {
             placeholder="Ex.: 60 minutos"
           />
 
-          <button type="button">
+          <button
+            type="button"
+            onClick={() => navigate("/servicosmanicure")}
+          >
             Salvar serviço
           </button>
 
